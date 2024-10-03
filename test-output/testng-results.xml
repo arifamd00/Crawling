@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-10-03T11:38:03 IST" name="Default suite" finished-at="2024-10-03T11:38:18 IST" duration-ms="14522">
+    <groups>
+    </groups>
+    <test started-at="2024-10-03T11:38:03 IST" name="Default test" finished-at="2024-10-03T11:38:18 IST" duration-ms="14522">
+      <class name="crawling.app.crawl.TestRunner">
+        <test-method is-config="true" signature="settingUp()[pri:0, instance:crawling.app.crawl.TestRunner@a38c7fe]" started-at="2024-10-03T11:38:03 IST" name="settingUp" finished-at="2024-10-03T11:38:03 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method signature="crawl([Ljava.lang.Object;)[pri:0, instance:crawling.app.crawl.TestRunner@a38c7fe]" started-at="2024-10-03T11:38:03 IST" name="crawl" data-provider="csvReader" finished-at="2024-10-03T11:38:11 IST" duration-ms="8020" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@1adb7478]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crawl -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:crawling.app.crawl.TestRunner@a38c7fe]" started-at="2024-10-03T11:38:11 IST" name="tearDown" finished-at="2024-10-03T11:38:12 IST" duration-ms="187" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method signature="crawl([Ljava.lang.Object;)[pri:0, instance:crawling.app.crawl.TestRunner@a38c7fe]" started-at="2024-10-03T11:38:12 IST" name="crawl" data-provider="csvReader" finished-at="2024-10-03T11:38:17 IST" duration-ms="5918" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[Ljava.lang.Object;@11a82d0f]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- crawl -->
+        <test-method is-config="true" signature="settingUp()[pri:0, instance:crawling.app.crawl.TestRunner@a38c7fe]" started-at="2024-10-03T11:38:12 IST" name="settingUp" finished-at="2024-10-03T11:38:12 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- settingUp -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:crawling.app.crawl.TestRunner@a38c7fe]" started-at="2024-10-03T11:38:17 IST" name="tearDown" finished-at="2024-10-03T11:38:18 IST" duration-ms="271" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- crawling.app.crawl.TestRunner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
