@@ -1,0 +1,33 @@
+[ INFO] 2024-11-14 23:06:37.061 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ERROR] 2024-11-14 23:06:37.068 TestRunner.crawl(TestRunner.java:43) - Test error
+[DEBUG] 2024-11-14 23:06:37.068 TestRunner.crawl(TestRunner.java:44) - test debug
+[ INFO] 2024-11-14 23:06:43.335 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:06:44.053 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:06:45.079 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:06:45.385 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:06:45.488 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:06:45.791 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ERROR] 2024-11-14 23:06:45.795 TestRunner.crawl(TestRunner.java:43) - Test error
+[DEBUG] 2024-11-14 23:06:45.797 TestRunner.crawl(TestRunner.java:44) - test debug
+[ INFO] 2024-11-14 23:09:04.270 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ERROR] 2024-11-14 23:09:04.276 TestRunner.crawl(TestRunner.java:43) - Test error
+[DEBUG] 2024-11-14 23:09:04.276 TestRunner.crawl(TestRunner.java:44) - test debug
+[ INFO] 2024-11-14 23:09:10.201 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:09:10.855 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:09:11.687 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:09:12.062 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:09:12.198 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:09:12.975 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ERROR] 2024-11-14 23:09:12.977 TestRunner.crawl(TestRunner.java:43) - Test error
+[DEBUG] 2024-11-14 23:09:12.978 TestRunner.crawl(TestRunner.java:44) - test debug
+[ERROR] 2024-11-14 23:11:49.447 TestRunner.crawl(TestRunner.java:43) - Test error
+[ERROR] 2024-11-14 23:12:00.150 TestRunner.crawl(TestRunner.java:43) - Test error
+[ INFO] 2024-11-14 23:15:07.604 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ERROR] 2024-11-14 23:15:07.609 TestRunner.crawl(TestRunner.java:43) - Test error
+[ INFO] 2024-11-14 23:15:12.988 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:15:13.609 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:15:14.406 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:15:14.750 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:15:14.876 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2024-11-14 23:15:15.460 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ERROR] 2024-11-14 23:15:15.461 TestRunner.crawl(TestRunner.java:43) - Test error

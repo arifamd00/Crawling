@@ -3,6 +3,8 @@ package crawling.app.crawl;
 import java.lang.reflect.Method;
 import java.time.Duration;
 
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
@@ -23,7 +25,7 @@ import utils.csvReader;
 public class TestRunner {
 	
 	WebDriver driver;
-	
+	private Logger log = LogManager.getLogger(TestRunner.class);
 	@BeforeMethod
 	public void settingUp() {
 		
@@ -37,6 +39,7 @@ public class TestRunner {
 		while(crawling<data.length) {
 			String action = data[crawling].toString().split("=>")[0];
 			if(action.equals("open")) {
+				log.info("Initializing browser");
 				driver = new ChromeDriver();
 				String url = data[crawling].toString().split("=>")[1];
 				driver.get(url);
@@ -44,6 +47,7 @@ public class TestRunner {
 				driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(30));
 			}else if(action.equals("click")) {
 				String param = data[crawling].toString().split("=>")[1];
+				log.info("performing click operation");
 				driver.findElement(By.xpath(param)).click();
 			}else if(action.equals("enterText")) {
 				String xpath = data[crawling].toString().split("=>")[1];

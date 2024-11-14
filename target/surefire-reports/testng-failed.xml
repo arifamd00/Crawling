@@ -5,7 +5,7 @@
     <classes>
       <class name="crawling.app.crawl.TestRunner">
         <methods>
-          <include name="crawl"/>
+          <include name="crawl" invocation-numbers="0"/>
           <include name="settingUp"/>
           <include name="tearDown"/>
         </methods>
