@@ -3,13 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="crawling.app.crawl.TestRunner2">
+      <class name="crawling.app.crawl.TestRunner">
         <methods>
-          <include name="crawl"/>
+          <include name="crawl" invocation-numbers="0"/>
           <include name="settingUp"/>
           <include name="tearDown"/>
         </methods>
-      </class> <!-- crawling.app.crawl.TestRunner2 -->
+      </class> <!-- crawling.app.crawl.TestRunner -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

@@ -4,8 +4,12 @@ import java.io.BufferedReader;
 import java.io.FileReader;
 import java.io.IOException;
 import java.util.ArrayList;
+import java.util.List;
 
 import org.testng.annotations.DataProvider;
+
+import com.opencsv.CSVReader;
+import com.opencsv.exceptions.CsvException;
 
 public class csvReader {
 	
@@ -49,5 +53,41 @@ public class csvReader {
 		return dataRows;
 		
 	}
+	
+	@DataProvider(name="csvReader2")
+    public Object[][] data2() {
+        String csvFile = System.getProperty("user.dir")+"//src//test//resources//"+"testdata.csv"; // Replace with your CSV file path
+        Object[][] data;
+        int rowCount;
+        int cellCount;
+        try (CSVReader reader = new CSVReader(new FileReader(csvFile))) {
+            List<String[]> allData = reader.readAll(); // Reads all lines into a list of String arrays
+            rowCount = allData.size();
+            cellCount = allData.get(0).length;
+            System.out.println(rowCount);
+            System.out.println(cellCount);
+            
+            data = new Object[rowCount][cellCount];
+            int i=0;
+            for (String[] row : allData) {
+                int j=0;
+            	for (String cell : row) {
+                    System.out.print(cell + " ");
+            		data[i][j] = cell;
+            		j+=1;
+                }
+            	i+=1;
+               
+            }
+            //System.out.println(data[0][0]);
+            return data;
+        } catch (IOException | CsvException e) {
+            e.printStackTrace();
+            data = new Object[0][0];
+            return data;
+        }
+        
+        
+    }
 
 }

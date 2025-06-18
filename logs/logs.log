@@ -31,3 +31,75 @@
 [ INFO] 2024-11-14 23:15:14.876 TestRunner.crawl(TestRunner.java:52) - performing click operation
 [ INFO] 2024-11-14 23:15:15.460 TestRunner.crawl(TestRunner.java:42) - Initializing browser
 [ERROR] 2024-11-14 23:15:15.461 TestRunner.crawl(TestRunner.java:43) - Test error
+[ INFO] 2025-05-17 11:27:12.416 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ INFO] 2025-05-17 11:28:55.155 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-05-17 11:28:56.201 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-05-17 11:28:57.308 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-05-17 11:28:57.685 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-05-17 11:28:57.820 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-05-17 11:28:58.251 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ INFO] 2025-06-05 17:22:55.577 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ INFO] 2025-06-05 17:23:42.323 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-06-05 18:08:22.261 TestRunner.crawl(TestRunner.java:42) - Initializing browser
+[ INFO] 2025-06-05 18:08:47.354 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-06-05 18:08:57.320 TestRunner.crawl(TestRunner.java:50) - performing click operation
+[ INFO] 2025-06-05 18:52:44.856 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-05 18:53:11.638 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-05 18:53:21.233 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-05 19:24:47.568 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-05 19:25:10.165 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-05 19:25:22.342 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 09:39:13.039 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 09:39:38.593 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 09:39:52.022 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:01:36.989 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:02:10.011 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:02:22.104 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:15:33.177 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:15:59.714 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:16:09.690 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:20:56.014 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:21:31.503 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:21:43.596 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:25:54.174 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:26:16.119 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:26:24.567 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:28:21.501 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:30:15.569 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:33:25.730 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:34:28.434 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:34:52.411 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:35:01.592 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:37:00.360 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:37:24.941 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:37:34.102 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:58:40.160 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-07 23:59:03.031 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-07 23:59:11.377 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-08 00:03:37.038 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-08 00:03:58.189 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-08 00:04:07.429 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-08 00:05:21.528 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-08 00:05:44.122 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-08 00:05:53.489 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-16 10:15:02.671 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-16 10:15:39.693 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-16 10:15:52.244 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 17:55:09.503 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-18 17:55:32.417 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 17:55:41.191 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:15:35.174 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-18 19:15:47.207 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:15:52.451 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:19:11.657 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-18 19:19:20.340 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:19:32.694 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:29:39.321 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-18 19:29:47.740 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:29:51.994 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:34:20.750 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-18 19:34:29.263 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:34:34.474 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:35:07.268 TestRunner.crawl(TestRunner.java:44) - Initializing browser
+[ INFO] 2025-06-18 19:35:23.630 TestRunner.crawl(TestRunner.java:52) - performing click operation
+[ INFO] 2025-06-18 19:35:28.628 TestRunner.crawl(TestRunner.java:52) - performing click operation

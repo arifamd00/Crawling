@@ -2,6 +2,8 @@ package crawling.app.crawl;
 
 import java.lang.reflect.Method;
 import java.time.Duration;
+import java.util.List;
+import java.util.stream.Collectors;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -31,7 +33,7 @@ public class TestRunner {
 		
 	}
 	
-	@Test(dataProvider="csvReader", dataProviderClass = csvReader.class)
+	@Test(dataProvider="csvReader2", dataProviderClass = csvReader.class)
 	public void crawl(Object[] data) {
 		int crawling = 0;
 		String store = null;
@@ -54,6 +56,7 @@ public class TestRunner {
 				String text = data[crawling].toString().split("=>")[2];
 				driver.findElement(By.xpath(xpath)).sendKeys(text);
 			}else if(action.equals("jsClick")) {
+				System.out.println("invoked jsClick");
 				JavascriptExecutor js = (JavascriptExecutor) driver;
 				String xpath = data[crawling].toString().split("=>")[1];
 				WebElement obj = driver.findElement(By.xpath(xpath));
@@ -83,6 +86,15 @@ public class TestRunner {
 				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
 				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
 				
+			}else if(action.equals("getTexts")) {
+				System.out.println("invoking getTexts");
+				String xpath = data[crawling].toString().split("=>")[1];
+				WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(60));
+				wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath(xpath)));
+				List<String> texts = driver.findElements(By.xpath(xpath)).stream().map(e->e.getText()).collect(Collectors.toList());
+				for(String text: texts) {
+					System.out.println(text);
+				}
 			}
 			
 			
@@ -91,10 +103,12 @@ public class TestRunner {
 		}
 		
 	}
-	
+	////div[@id='showApplication0']//div[contains(@class,'step')]//div[@name='statusName']/span
+	//,jsClick=>//div[contains(@class, 'owl-item')][1]//div[contains(@class,'customCard3')]//button[contains(@class,'customButton')]
 	@AfterMethod
 	public void tearDown() {
-		driver.close();
+		//driver.close();
 	}
+	//open=>https://career.infosys.com/login
 
 }
