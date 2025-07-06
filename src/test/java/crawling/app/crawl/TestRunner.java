@@ -95,6 +95,17 @@ public class TestRunner {
 					for(String text: texts) {
 						System.out.println(text);
 					}
+				}else if(action.equalsIgnoreCase("jsChangeAttribute")) {
+					System.out.println("invoking js change attribute");
+					String xpath = data[crawling].toString().split("=>")[1];
+					String attribute = data[crawling].toString().split("=>")[2].split(":")[0];
+					String value = data[crawling].toString().split("=>")[2].split(":")[1];
+					WebElement ele = driver.findElement(By.xpath(xpath));
+					JavascriptExecutor js = (JavascriptExecutor)driver;
+					
+					js.executeScript("arguments[0].style.display='none';", ele);
+					
+					//"arguments[0].setAttribute('"+attribute+"','"+value+"');", ele
 				}
 
 
@@ -115,3 +126,6 @@ public class TestRunner {
 	//open=>https://career.infosys.com/login
 
 }
+
+//open=>https://career.infosys.com/login,enterText=>//input[@id='username']=>mohaarif0123@gmail.com,enterText=>//input[@id='password']=>arifAMD@001,click=>//button[@id='btnSubmit'],waitFor=>//a[text()='My Application'],"jsClick=>//div[contains(@class,'dialog')]//button//span[text()='Ok']",jsClick=>//a[text()='My Application'],getTexts=>//div[@class='row app-cardStyle']/div/div//h2
+
